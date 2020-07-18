@@ -1,0 +1,7 @@
+# IDE trash
+.idea
+
+# Distribution
+.DS_Store
+.cache/
+
