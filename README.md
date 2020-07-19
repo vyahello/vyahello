@@ -14,13 +14,14 @@ class AboutMe:
 @dataclass(frozen=True)
 class Skills:
     languages: str = 'python, shell, groovy'
-    operation_systems: str = 'linux (embedded), cisco, windows'
-    test_frameworks: str = 'pytest, pyats, unittests, doctest, selenium'
-    web_frameworks: str = 'flask-like, django, pyramid, aiohttp'
+    operation_systems: str = 'linux, cisco, windows'
+    test_frameworks: str = 'pytest, pyats, unittests, doctest, behave, selenium, zalenium, robot framework'
+    web_frameworks: str = 'flask-like, api star, django, pyramid, aiohttp'
     code_quality: str = 'flake8, mypy, pylint, black, pydocstyle'
-    devops: str = 'jenkins, travis, docker, elasticsearch & kibana'
+    devops: str = 'jenkins, travis, github, docker, elasticsearch & kibana'
     version_control: str = 'git, gerrit'
     approaches: str = 'object oriented, solid, micro services, asyncio, agile'
+    embedded: str = 'raspberry pi 3/4'
     ongoing: str = 'backend/web development, javascript'
 
 
