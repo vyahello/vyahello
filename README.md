@@ -5,9 +5,10 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class AboutMe:
     name: str = 'Vladimir Yahello'
+    age: int = 27
     location: str = 'Ukraine, Lviv'
     profile: str = 'python, network, test automation engineer'
-    years_of_experience: int = 4
+    years_of_experience: float = 4.5
     hobbies: str = 'bots, automation, open source, clean code'
 
 
