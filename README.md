@@ -5,10 +5,10 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class AboutMe:
     name: str = 'Vladimir Yahello'
-    age: int = 27
     location: str = 'Ukraine, Lviv'
+    age: int = 27
+    experience: float = 4.5
     profile: str = 'python, network, test automation engineer'
-    years_of_experience: float = 4.5
     hobbies: str = 'bots, automation, open source, clean code'
 
 
@@ -16,13 +16,12 @@ class AboutMe:
 class Skills:
     languages: str = 'python, shell, groovy'
     operation_systems: str = 'linux, cisco, windows'
-    test_frameworks: str = 'pytest, pyats, unittests, doctest, behave, selenium, zalenium, robot framework'
-    web_frameworks: str = 'flask-like, api star, django, pyramid, aiohttp'
+    test_frameworks: str = 'pytest, pyats, unittests, doctest, behave, selenium, robot framework'
+    web_frameworks: str = 'flask-like, django, pyramid, aiohttp.web'
     code_quality: str = 'flake8, mypy, pylint, black, pydocstyle'
-    devops: str = 'jenkins, travis, github, docker, elasticsearch & kibana'
+    devops: str = 'jenkins, travis, docker, elk'
     version_control: str = 'git, gerrit'
-    approaches: str = 'object oriented, solid, micro services, asyncio, agile'
-    embedded: str = 'raspberry pi 3/4'
+    approaches: str = 'object oriented, solid, micro services, agile'
     ongoing: str = 'backend/web development, javascript'
 
 
