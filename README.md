@@ -8,21 +8,18 @@ class AboutMe:
     location: str = 'Ukraine, Lviv'
     age: int = 27
     experience: float = 4.5
-    profile: str = 'python, network, test automation engineer'
-    hobbies: str = 'bots, automation, open source, clean code'
+    profile: tuple = 'python engineer', 'AQA engineer'
+    hobbies: tuple = 'bots', 'automation', 'open source', 'clean code'
 
 
 @dataclass(frozen=True)
 class Skills:
-    languages: str = 'python, shell, groovy'
-    operation_systems: str = 'linux, cisco, windows'
-    test_frameworks: str = 'pytest, pyats, unittests, doctest, behave, selenium, robot framework'
-    web_frameworks: str = 'flask-like, django, pyramid, aiohttp.web'
-    code_quality: str = 'flake8, mypy, pylint, black, pydocstyle'
-    devops: str = 'jenkins, travis, docker, elk'
-    version_control: str = 'git, gerrit'
-    approaches: str = 'object oriented, solid, micro services, agile'
-    ongoing: str = 'backend/web development, javascript'
+    languages: tuple = 'python', 'shell', 'groovy'
+    operation_systems: tuple = 'linux', 'cisco', 'windows'
+    test_frameworks: tuple = 'pytest', 'pyats', 'unittests', 'doctest', 'behave', 'selenium', 'robot framework'
+    web_frameworks: tuple = 'flask-like', 'django', 'pyramid', 'aiohttp'
+    devops: tuple = 'jenkins', 'travis', 'docker', 'elk'
+    ongoing: tuple = 'backend/web development', 'javascript', 'embedded'
 
 
 @dataclass(frozen=True)
