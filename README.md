@@ -8,18 +8,18 @@ class AboutMe:
     location: str = 'Ukraine, Lviv'
     age: int = 27
     experience: float = 4.5
-    profile: tuple = 'python engineer', 'AQA engineer'
-    hobbies: tuple = 'bots', 'automation', 'open source', 'clean code'
+    profile: tuple[str] = 'python engineer', 'AQA engineer'
+    hobbies: tuple[str] = 'bots', 'automation', 'open source', 'clean code'
 
 
 @portfolio(frozen=True)
 class Skills:
-    languages: tuple = 'python', 'shell', 'groovy'
-    operation_systems: tuple = 'linux', 'cisco', 'windows'
-    test_frameworks: tuple = 'pytest', 'pyats', 'unittests', 'doctest', 'behave', 'selenium', 'robot framework'
-    web_frameworks: tuple = 'flask-like', 'django', 'pyramid', 'aiohttp'
-    devops: tuple = 'jenkins', 'travis', 'docker', 'elk'
-    ongoing: tuple = 'backend/web development', 'javascript', 'embedded'
+    languages: tuple[str] = 'python', 'shell', 'groovy'
+    operation_systems: tuple[str] = 'linux', 'cisco', 'windows'
+    test_frameworks: tuple[str] = 'pytest', 'pyats', 'unittests', 'doctest', 'selenium', 'robot framework'
+    web_frameworks: tuple[str] = 'flask-like', 'django', 'pyramid', 'aiohttp'
+    devops: tuple[str] = 'jenkins', 'travis', 'docker', 'elk'
+    ongoing: tuple[str] = 'backend/web development', 'javascript', 'embedded'
 
 
 @portfolio(frozen=True)
