@@ -1,8 +1,8 @@
 ```python
-from dataclasses import dataclass
+from dataclasses import dataclass as portfolio
 
 
-@dataclass(frozen=True)
+@portfolio(frozen=True)
 class AboutMe:
     name: str = 'Vladimir Yahello'
     location: str = 'Ukraine, Lviv'
@@ -12,7 +12,7 @@ class AboutMe:
     hobbies: tuple = 'bots', 'automation', 'open source', 'clean code'
 
 
-@dataclass(frozen=True)
+@portfolio(frozen=True)
 class Skills:
     languages: tuple = 'python', 'shell', 'groovy'
     operation_systems: tuple = 'linux', 'cisco', 'windows'
@@ -22,7 +22,7 @@ class Skills:
     ongoing: tuple = 'backend/web development', 'javascript', 'embedded'
 
 
-@dataclass(frozen=True)
+@portfolio(frozen=True)
 class Social:
     codewars: str = 'https://www.codewars.com/users/vyahello'
     twitter: str = 'https://twitter.com/vyahello'
