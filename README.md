@@ -1,4 +1,4 @@
-https://github-readme-stats.vercel.app/api?username=vyahello&show_icons=true&hide_border=true&count_private=true
+![vyahello's github stats](https://github-readme-stats.vercel.app/api?username=vyahello&show_icons=true&hide_border=true&count_private=true)
 ```python
 from dataclasses import dataclass as portfolio
 
