@@ -1,5 +1,11 @@
 ```python
-me.path.create()
+success: bool = False
+while not success:
+    me.enhance()
+    me.challenge.solve()
+    if not me.challenge.completed():
+        continue
+    success: bool = True
 ```
 
 <a href="https://sourcerer.io/vyahello" title="code breakdown"><img src="https://sourcerer.io/assets/avatar/vyahello" width="32"/>Python | Shell | Git | Docker | CI/CD</a>
