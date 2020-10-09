@@ -8,6 +8,8 @@ while not success:
     success: bool = True
 ```
 
+<a href="https://profile-counter.glitch.me/vyahello/count.svg"><p align="left"> # Visitors<br> <img src="https://profile-counter.glitch.me/vyahello/count.svg" /></a>
+
 <a href="https://sourcerer.io/vyahello" title="code breakdown"><img src="https://sourcerer.io/assets/avatar/vyahello" width="32"/>Python | Shell | Git | Docker | CI/CD</a>
 
 <center>
