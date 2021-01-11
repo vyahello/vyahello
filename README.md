@@ -1,9 +1,9 @@
 ```python
 success: bool = False
 while not success:
-    me.enhance()
-    me.challenge.solve()
-    if not me.challenge.completed():
+    self.enhance()
+    self.challenge.solve()
+    if not self.challenge.completed():
         continue
     success: bool = True
 ```
