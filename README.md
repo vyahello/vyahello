@@ -20,3 +20,6 @@ while not success:
   </tr>   
 </table>
 </center>
+
+<h3> Don't forget to leave a <img src="https://media.giphy.com/media/C4b6GwFKbYxK8/giphy.gif" width="30px"> </h3>
+
