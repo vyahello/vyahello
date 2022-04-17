@@ -4,7 +4,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Python%20Automation%20Engineer;5%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Python%20Automation%20Engineer;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22"></a>
 </p>
 
 ```python
@@ -28,15 +28,6 @@ while not success:
     <a href="https://sourcerer.io/vyahello"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
     <a href="https://sourcerer.io/vyahello"><img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1.svg?logo=arch-linux&logoColor=white"></a>
 </p>
-
-<center>
-  <table>
-  <tr>
-      <td><img width="550px" align="left" src="https://github-readme-stats.vercel.app/api?username=vyahello&show_icons=true&hide_border=true&count_private=true&layout=compact" /></td>
-      <td><img width="550px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vyahello&hide=html&layout=compact" /></td>
-  </tr>   
-</table>
-</center>
 
 <h3> Please follow and don't forget to leave a <img src="https://media.giphy.com/media/C4b6GwFKbYxK8/giphy.gif" width="30px"> </h3>
 
