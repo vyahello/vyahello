@@ -29,5 +29,4 @@ while not success:
     <a href="https://sourcerer.io/vyahello"><img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1.svg?logo=arch-linux&logoColor=white"></a>
 </p>
 
-<h3> Please follow and don't forget to leave a <img src="https://media.giphy.com/media/C4b6GwFKbYxK8/giphy.gif" width="30px"> </h3>
-
+<h3> Please follow and don't forget to leave a star </h3>
